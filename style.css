@@ -278,7 +278,7 @@ p {
 
 .oferta {
     width: 32vw;
-    height: 80vh;
+    height: auto;
     background-color: white;
     margin: 10px;
     border-radius: 12px;
@@ -302,12 +302,12 @@ p {
 
 .oferta:nth-child(1) {
     width: 28vw;
-    height: 78vh;
+    height: auto;
 }
 
 .oferta:nth-child(2) {
     width: 30vw;
-    height: 80vh;
+    height: auto;
 }
 
 
@@ -340,8 +340,9 @@ p {
 }
 
 .oferta-bottom {
-    position: absolute;
-    bottom: 5%;
+    /*position: absolute;
+    bottom: 5%;*/
+    margin-top: 7vh;
 }
 
 .descricao-oferta {
@@ -685,13 +686,13 @@ footer p {
     }
 
 
-    .oferta:nth-child(1) {
+    /*.oferta:nth-child(1) {
         height: 70vh !important;
         width: 80vw;
     }
     .oferta:nth-child(2) {
         height: 115vh !important;
-    }
+    }*/
     .preco-novo{
         font-size: 1.5rem;
     }
